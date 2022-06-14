@@ -2,4 +2,6 @@ From pihole/pihole:latest
 
 RUN apt-get update && apt-get install -y unbound
 
- COPY pi-hole.conf /etc/unbound/unbound.conf.d/
+COPY pi-hole.conf /etc/unbound/unbound.conf.d/
+
+COPY unbound.sh /etc/cont-init.d/

@@ -3,7 +3,7 @@ version: "3"
 # More info at https://github.com/pi-hole/docker-pi-hole/ and https://docs.pi-hole.net/
 services:
   pihole:
-    container_name: pihole7
+    container_name: pihole12
     image: masterno12/pihole-unbound:latest
     # For DHCP it is recommended to remove these ports and instead add: network_mode: "host"
     ports:
@@ -14,7 +14,6 @@ services:
     environment:
       TZ: 'America/Montreal'
       PIHOLE_DNS_: '127.0.0.1#5335'
-
       # WEBPASSWORD: 'set a secure password here or it will be random'
     # Volumes store your data between container upgrades
     volumes:
