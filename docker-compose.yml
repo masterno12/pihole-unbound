@@ -1,9 +1,10 @@
 version: "3"
 
 # More info at https://github.com/pi-hole/docker-pi-hole/ and https://docs.pi-hole.net/
+# More info at https://github.com/masterno12/pihole-unbound
 services:
   pihole:
-    container_name: pihole12
+    container_name: pihole1
     image: masterno12/pihole-unbound:latest
     # For DHCP it is recommended to remove these ports and instead add: network_mode: "host"
     ports:
