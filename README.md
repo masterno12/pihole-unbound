@@ -3,7 +3,7 @@ This image is base on the official [Pi-Hole](https://hub.docker.com/r/pihole/pih
 
 ## Quick Start
 
-1. Copy docker-compose.yml.example to docker-compose.yml and update as needed.
+1. Copy docker-compose.yml and update as needed.
 
 ```yaml
 version: "3"
